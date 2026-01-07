@@ -2647,114 +2647,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "MountingHole_Pad_MP_2"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "H3"
-				(at 6.35 1.27 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "LoadCell4"
-				(at 3.81 1.27 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "MiteOut:throughole"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Mounting Hole with connection as pad named MP"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "mounting hole"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "MountingHole*Pad*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MountingHole_Pad_MP_2_0_1"
-				(circle
-					(center 0 1.27)
-					(radius 1.27)
-					(stroke
-						(width 1.27)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "MountingHole_Pad_MP_2_1_1"
-				(pin output line
-					(at 0 -2.54 90)
-					(length 2.54)
-					(name "MP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "MP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "MountingHole_Pad_MP_3"
 			(pin_numbers
 				(hide yes)
@@ -3923,16 +3815,6 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 55.88) (xy 240.03 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18bd67c8-256f-4b7f-98ea-cfd103b375ff")
-	)
-	(wire
-		(pts
 			(xy 81.28 91.44) (xy 107.95 91.44)
 		)
 		(stroke
@@ -4250,6 +4132,16 @@
 			(type default)
 		)
 		(uuid "b9524235-9888-40ad-aa19-43415989da27")
+	)
+	(wire
+		(pts
+			(xy 233.68 55.88) (xy 240.03 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6594154-852d-4888-8d5a-1d6a3725fe6b")
 	)
 	(wire
 		(pts
@@ -4717,7 +4609,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_EH_B4B-EH-A_1x04_P2.50mm_Vertical"
+		(property "Footprint" "MiteOut1:4Wire"
 			(at 240.03 26.67 0)
 			(effects
 				(font
@@ -5361,7 +5253,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_EH_B4B-EH-A_1x04_P2.50mm_Vertical"
+		(property "Footprint" "MiteOut1:4Wire"
 			(at 185.42 25.4 0)
 			(effects
 				(font
@@ -5419,7 +5311,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8049fb66-20ee-4ebc-a8d7-0f0fb2f2e63f")
-		(property "Reference" "Clock"
+		(property "Reference" "Clock1"
 			(at 196.85 50.8 90)
 			(effects
 				(font
@@ -5436,7 +5328,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MiteOut1:4Wire"
 			(at 185.42 48.26 0)
 			(effects
 				(font
@@ -5478,7 +5370,7 @@
 		(instances
 			(project ""
 				(path "/5a6f6220-e177-4946-83ab-218a165d7855"
-					(reference "Clock")
+					(reference "Clock1")
 					(unit 1)
 				)
 			)
@@ -6012,7 +5904,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_EH_B4B-EH-A_1x04_P2.50mm_Vertical"
+		(property "Footprint" "MiteOut1:4Wire"
 			(at 199.39 25.4 0)
 			(effects
 				(font
@@ -6061,7 +5953,6 @@
 		)
 	)
 	(symbol
-		(lib_name "MountingHole_Pad_MP_2")
 		(lib_id "Mechanical:MountingHole_Pad_MP")
 		(at 231.14 55.88 90)
 		(unit 1)
@@ -6089,7 +5980,7 @@
 			)
 		)
 		(property "Footprint" "MiteOut:throughole"
-			(at 231.14 55.88 0)
+			(at 224.028 55.626 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6107,7 +5998,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection as pad named MP"
-			(at 231.14 55.88 0)
+			(at 220.726 55.626 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6221,7 +6112,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_EH_B4B-EH-A_1x04_P2.50mm_Vertical"
+		(property "Footprint" "MiteOut1:4Wire"
 			(at 224.79 26.67 0)
 			(effects
 				(font
