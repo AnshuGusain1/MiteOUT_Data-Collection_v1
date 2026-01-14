@@ -1,8 +1,8 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 31,
     "active_layer_preset": "All Layers",
-    "auto_track_width": false,
+    "auto_track_width": true,
     "hidden_netclasses": [],
     "hidden_nets": [],
     "high_contrast_mode": 0,
@@ -50,7 +50,7 @@
       "shapes"
     ],
     "visible_layers": "ffffffff_ffffffff_ffffffff_ffffffff",
-    "zone_display_mode": 1
+    "zone_display_mode": 0
   },
   "git": {
     "repo_type": "",
@@ -58,7 +58,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "Practice.kicad_prl",
+    "filename": "ESPmoduleBoard.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
@@ -96,7 +96,7 @@
       103,
       74,
       103,
-      103
+      0
     ],
     "custom_group_rules": [],
     "expanded_rows": [],
