@@ -1,0 +1,12 @@
+# KiCad auto-generated files
+#auto_saved_files#
+_autosave-*
+*.lck
+~*.lck
+*.bak
+*-backups/
+fp-info-cache
+*.kicad_prl
+
+# macOS files
+.DS_Store
